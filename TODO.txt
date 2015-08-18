@@ -1,0 +1,14 @@
+TODO:
+- Need to work on element based textboxes so that they look like other attribute based ones.
+- Need to make add/remove buttons add items infront of themselves
+- Need to make track count of add.remove items so taht we dont go over max count/ also remove
+- Fix errorCollector.attributes.include and .exclude
+	This now give buttons, but two sets at the end. Changed from Dict to List to make this happen
+
+POSSIBLE FIXES:
+- Could use multiline textboxes to handle include/exclude and even other fields.
+	Would require custom detection.  include/exclude already has this in a way with the sequence>sequence>element stuff. Others possible
+	Would allow for counts easily.
+	Detection would be needed during config read and save as well. could be custom class for all functions.
+	PROBLEM: this will NOT work for applicationPools since that has elements with TWO attributes.
+		Could use comma to indicate the value.
