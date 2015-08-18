@@ -69,12 +69,6 @@
     <Compile Include="SpecialCaseHandlersTests.cs" />
     <Compile Include="UIBuilderTests.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\dotnet_configuration\dotnet_configuration.csproj">
-      <Project>{67eeb4c9-3f82-405d-bb43-969d2fea0d88}</Project>
-      <Name>dotnet_configuration</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
