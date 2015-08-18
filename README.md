@@ -30,11 +30,11 @@ Create a file called enabledebug in a the app root. [Requires restart to take ef
 Goals:
 
 * Support all versions of the agent that use a newrelic.xsd/newrelic.config file combination.
-* Require little to no development effort to maintain the tool when updating the agent or adding new features.
+* Require little to no development effort to maintain the tool when the agent is updated or new features  are added.
 * Provide an easy way for customers to update their newrelic.config files.
 
 Possible Stretch Goals:
 
-* Read customers IIS and build file from there.
-* Allow customer to select non-IIS applications via OpenFileDialog.
+* Read IIS and build file from there.
+* Allow users to select non-IIS applications via OpenFileDialog.
 * Quick-select for debugging(done) and other common changes.
