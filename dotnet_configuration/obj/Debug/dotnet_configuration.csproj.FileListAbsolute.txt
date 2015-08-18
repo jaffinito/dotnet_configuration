@@ -1,0 +1,1 @@
+C:\Users\jaffi\Documents\GitHub\temp\dotnet_configuration\dotnet_configuration\bin\Debug\dotNetAgentConfigurationTool.exe.config
