@@ -89,7 +89,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="newrelic.ico" />
     <EmbeddedResource Include="Resources\log4net_config.xml" />
   </ItemGroup>
   <ItemGroup>
