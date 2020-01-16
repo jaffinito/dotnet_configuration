@@ -1,18 +1,17 @@
 dotnet_configuration
 ====================
 
-This is a configuration tool for the .Net Agent built on **.Net Framework 4.0, Client Profile**.
+This is a configuration tool for the .Net Agent built on **.Net Framework 4.0, Client Profile**.  You must have .NET Framework 4.0 installed.
 
 Supported Operating Systems:
 
-* 2003 and XP
-* 2008 R1/R2 and Vista/Win7
-* 2012 R1/R2 and Win8/Win8.1
+* Windows XP or greater
+* Windows Server 2003 or greater
 
-The .Net Agent does not need to be installed for this tool to work.
+The .Net Agent does not need to be installed for this tool to work, but it makes the tool far more useful.
 The tool has the newrelic.config and newrelic.xsd embedded in it.
-The version of the tool matches the version of the files embedded in it.
-So, Tool version 3.10.43 has the config/xsd for Agent verison 3.10.43.
+
+Current included version of the config/xsd: [8.23.107.0](https://docs.newrelic.com/docs/release-notes/agent-release-notes/net-release-notes/net-agent-8231070).
 
 **Process that occurs when openning a file:**
 
